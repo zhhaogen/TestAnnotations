@@ -1,0 +1,26 @@
+// 项目目录
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+		//当前build gradle版本为 3.0.0-alpha9
+        classpath 'com.android.tools.build:gradle:+'
+        
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

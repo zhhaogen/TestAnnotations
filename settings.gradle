@@ -1,0 +1,2 @@
+include ':app', ':libannotations', ':processor'
+// 引用其他项目工程
